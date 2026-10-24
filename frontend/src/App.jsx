@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-const API_URL = 'http://localhost:5000/api/books';
+const API_URL = "https://library-book-management-qyw9.onrender.com/api/books";
 
 function App() {
   const [books, setBooks] = useState([]);
